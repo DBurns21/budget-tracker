@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="125fec2a-882b-441b-95e7-3db27d95e440" name="Changes" comment="Testing account change" />
+    <list default="true" id="125fec2a-882b-441b-95e7-3db27d95e440" name="Changes" comment="Testing account change again ._." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,6 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "settings.editor.selected.configurable": "application.passwordSafe"
   }
@@ -123,7 +124,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750993439804</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Testing account change again ._.">
+      <option name="closed" value="true" />
+      <created>1751037010832</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1751037010832</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +165,7 @@
     <MESSAGE value="Initial project setup." />
     <MESSAGE value="Fixes to initial project setup." />
     <MESSAGE value="Testing account change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing account change" />
+    <MESSAGE value="Testing account change again ._." />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing account change again ._." />
   </component>
 </project>
