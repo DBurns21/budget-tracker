@@ -9,9 +9,6 @@ import java.sql.SQLOutput;
 public class BudgetTrackerApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World");
 		SpringApplication.run(BudgetTrackerApplication.class, args);
-
-
 	}
 }
