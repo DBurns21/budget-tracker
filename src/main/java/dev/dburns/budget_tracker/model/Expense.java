@@ -12,15 +12,48 @@ import java.time.Instant;
 public class Expense {
 
     @Id
-    private Long id;
+    private int id;
 
     private Instant expenseDate;
 
     private String description;
+
+    public Expense() {
+    }
+
+    public Expense(int id, Instant expenseDate, String description) {
+        this.id = id;
+        this.expenseDate = expenseDate;
+        this.description = description;
+    }
 
     @ManyToOne
     private Category category;
 
     @ManyToOne
     private User user;
+
+    public int getId() {
+        return id;
+    }
+
+    public Instant getExpenseDate() {
+        return expenseDate;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setExpenseDate(Instant expenseDate) {
+        this.expenseDate = expenseDate;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
 }

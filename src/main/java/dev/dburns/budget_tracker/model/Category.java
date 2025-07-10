@@ -7,12 +7,35 @@ import jakarta.persistence.*;
 public class Category {
 
     @Id
-    private Long id;
+    private int id;
 
     //category names would be what the expense is for like grocery, travel, rent, etc...
     private String name;
 
+    public Category() {
+    }
+
+    public Category(int id, String name) {
+        this.id = id;
+        this.name = name;
+    }
+
     @ManyToOne(cascade = CascadeType.PERSIST)
     private User user;
+
+    public int getId() {
+        return  id;
+    }
+    public  String getName() {
+        return name;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 
 }
