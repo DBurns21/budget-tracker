@@ -16,6 +16,8 @@ public class User {
 
     private String email;
 
+    private String password;
+
     public User() {
     }
 
@@ -24,9 +26,6 @@ public class User {
         this.name = name;
         this.email = email;
     }
-
-    @OneToMany
-    private Set<Category> category;
 
     public int getId()
     {
@@ -51,5 +50,13 @@ public class User {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
     }
 }
