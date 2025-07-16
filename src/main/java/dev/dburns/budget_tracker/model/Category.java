@@ -20,9 +20,6 @@ public class Category {
         this.name = name;
     }
 
-    @ManyToOne(cascade = CascadeType.PERSIST)
-    private User user;
-
     public int getId() {
         return  id;
     }
