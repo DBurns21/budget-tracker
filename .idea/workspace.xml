@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="125fec2a-882b-441b-95e7-3db27d95e440" name="Changes" comment="Added password setter and getter for user model">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/repository/CategoryRepository.java" afterDir="false" />
+    <list default="true" id="125fec2a-882b-441b-95e7-3db27d95e440" name="Changes" comment="testing a change">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/BudgetTrackerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/BudgetTrackerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/model/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/model/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/model/Expense.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1752248712947</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added CateforyRepository">
+      <option name="closed" value="true" />
+      <created>1752676637525</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1752676637525</updated>
+    </task>
+    <task id="LOCAL-00014" summary="testing a change">
+      <option name="closed" value="true" />
+      <created>1752679838738</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1752679838738</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,6 +250,8 @@
     <MESSAGE value="Added example for connecting this to a mysql server in the application.properties" />
     <MESSAGE value="Added .properties to gitignore so I can use it without leaking private info" />
     <MESSAGE value="Added password setter and getter for user model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added password setter and getter for user model" />
+    <MESSAGE value="added CateforyRepository" />
+    <MESSAGE value="testing a change" />
+    <option name="LAST_COMMIT_MESSAGE" value="testing a change" />
   </component>
 </project>

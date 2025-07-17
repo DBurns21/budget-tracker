@@ -12,7 +12,7 @@ import java.time.Instant;
 public class Expense {
 
     @Id
-    private int id;
+    private long id;
 
     private Instant expenseDate;
 
@@ -21,7 +21,7 @@ public class Expense {
     public Expense() {
     }
 
-    public Expense(int id, Instant expenseDate, String description) {
+    public Expense(long id, Instant expenseDate, String description) {
         this.id = id;
         this.expenseDate = expenseDate;
         this.description = description;
@@ -33,7 +33,7 @@ public class Expense {
     @ManyToOne
     private User user;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
@@ -45,7 +45,7 @@ public class Expense {
         return description;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
