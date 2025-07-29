@@ -31,6 +31,7 @@ public class BudgetTrackerApplication implements  CommandLineRunner{
 
 	@Override
 	public void run(String... args) {
+		/*
 		User user = new User();
 		user.setEmail("example@example.com");
 		user.setName("Bill");
@@ -49,6 +50,7 @@ public class BudgetTrackerApplication implements  CommandLineRunner{
 		expense.setExpenseDate(Instant.now());
 
 		expenseRepository.save(expense);
+		 */
 
 
 		System.out.println("All categories in the database:");
