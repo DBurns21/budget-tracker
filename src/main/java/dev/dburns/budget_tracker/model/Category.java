@@ -1,5 +1,6 @@
 package dev.dburns.budget_tracker.model;
 
+import io.micrometer.common.lang.NonNull;
 import jakarta.persistence.*;
 
 @Entity
@@ -10,6 +11,7 @@ public class Category {
     private long id;
 
     //category names would be what the expense is for like grocery, travel, rent, etc...
+    @NonNull
     private String name;
 
     public Category() {
