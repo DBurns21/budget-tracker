@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="125fec2a-882b-441b-95e7-3db27d95e440" name="Changes" comment="idk">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/controller/CatergoryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/controller/ExpenseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/controller/UserController.java" afterDir="false" />
+    <list default="true" id="125fec2a-882b-441b-95e7-3db27d95e440" name="Changes" comment="Add find by id to the category repository">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/BudgetTrackerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/BudgetTrackerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/repository/CategoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/repository/CategoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/controller/CatergoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/controller/CatergoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/model/Category.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +265,31 @@
       <option name="project" value="LOCAL" />
       <updated>1752774967003</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Added controller classes">
+      <option name="closed" value="true" />
+      <created>1753802384586</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1753802384586</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Added SecurityConfig to disabled sign in during development">
+      <option name="closed" value="true" />
+      <created>1753802413390</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1753802413390</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add find by id to the category repository">
+      <option name="closed" value="true" />
+      <created>1753802469622</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1753802469622</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -315,6 +336,9 @@
     <MESSAGE value="updated some test code to make sure I was able to update the database properly" />
     <MESSAGE value="undo" />
     <MESSAGE value="idk" />
-    <option name="LAST_COMMIT_MESSAGE" value="idk" />
+    <MESSAGE value="Added controller classes" />
+    <MESSAGE value="Added SecurityConfig to disabled sign in during development" />
+    <MESSAGE value="Add find by id to the category repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add find by id to the category repository" />
   </component>
 </project>
