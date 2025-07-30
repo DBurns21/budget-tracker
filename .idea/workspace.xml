@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="125fec2a-882b-441b-95e7-3db27d95e440" name="Changes" comment="Added a Post to add to the database.">
+    <list default="true" id="125fec2a-882b-441b-95e7-3db27d95e440" name="Changes" comment="Added Put method to update categories based on id.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/controller/CatergoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/controller/CatergoryController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -304,7 +303,23 @@
       <option name="project" value="LOCAL" />
       <updated>1753886958960</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Fixed error in dependencies">
+      <option name="closed" value="true" />
+      <created>1753887970274</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1753887970274</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Added Put method to update categories based on id.">
+      <option name="closed" value="true" />
+      <created>1753887996175</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1753887996175</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,6 +371,8 @@
     <MESSAGE value="Add find by id to the category repository" />
     <MESSAGE value="Updated dependencies" />
     <MESSAGE value="Added a Post to add to the database." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a Post to add to the database." />
+    <MESSAGE value="Fixed error in dependencies" />
+    <MESSAGE value="Added Put method to update categories based on id." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Put method to update categories based on id." />
   </component>
 </project>
