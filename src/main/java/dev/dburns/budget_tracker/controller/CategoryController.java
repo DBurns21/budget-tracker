@@ -16,10 +16,10 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api")
-public class CatergoryController {
+public class CategoryController {
     private CategoryRepository categoryRepository;
 
-    public  CatergoryController(CategoryRepository categoryRepository){
+    public  CategoryController(CategoryRepository categoryRepository){
         super();
         this.categoryRepository = categoryRepository;
     }

@@ -1,7 +1,7 @@
 package dev.dburns.budget_tracker.model;
 
-import io.micrometer.common.lang.NonNull;
 import jakarta.persistence.*;
+import jakarta.validation.constraints.NotNull;
 
 @Entity
 @Table(name="category")
@@ -11,10 +11,11 @@ public class Category {
     private long id;
 
     //category names would be what the expense is for like grocery, travel, rent, etc...
-    @NonNull
+    @NotNull
     private String name;
 
     public Category() {
+        name = "";
     }
 
     public Category(long id, String name) {

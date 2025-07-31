@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="125fec2a-882b-441b-95e7-3db27d95e440" name="Changes" comment="Added Put method to update categories based on id.">
+    <list default="true" id="125fec2a-882b-441b-95e7-3db27d95e440" name="Changes" comment="Added Delete method to be able to delete categories by id.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/controller/CatergoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/controller/CatergoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/model/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/dburns/budget_tracker/model/Category.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -319,7 +319,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753887996175</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Added Delete method to be able to delete categories by id.">
+      <option name="closed" value="true" />
+      <created>1753894525424</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1753894525424</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -373,6 +381,7 @@
     <MESSAGE value="Added a Post to add to the database." />
     <MESSAGE value="Fixed error in dependencies" />
     <MESSAGE value="Added Put method to update categories based on id." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Put method to update categories based on id." />
+    <MESSAGE value="Added Delete method to be able to delete categories by id." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Delete method to be able to delete categories by id." />
   </component>
 </project>
